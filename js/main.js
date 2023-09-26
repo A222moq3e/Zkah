@@ -2,7 +2,8 @@ let input = document.querySelector('input');
 let output = document.querySelector('.Result');
 
 function CalcZkah() {
-    Result = " زكاتك هي " + (input.value * 0.025) + " ريال";
-    output.innerHTML = Result;
-
+    result = " زكاتك هي " + '<b>'+(input.value * 0.025)+'</b>' + " ريال";
+    if(input.value< 1600.0)
+        result ="لم تبلغ حد النصاب"
+    output.innerHTML = result;
 }

@@ -18,57 +18,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-/* header {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    min-height: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    direction: rtl;
-    background-color: var(--main-color);
-    padding: 0 200px;
-}
-
-header .logo {
-    min-width: 100px;
-    font-size: 50px;
-    font-weight: 700;
-    color: #3fcb71;
-    padding: 10px;
-    font-family: serif;
-    background-color: #fff;
-    text-align: center;
-
-}
-
-header ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    direction: rtl;
-
-}
-
-header ul li {
-    margin-left: 20px;
-    
-    cursor: pointer;
-    font-size: 20px;
-
-}
-
-header ul li a {
-    color: white;
-    text-decoration: none;
-} */
-
 section {
     width: 100%;
     height: 100%;
@@ -85,13 +34,11 @@ section .Calculatr {
     max-width: 1080px;
     width: 100%;
     padding: 20px;
-    /* background-color: #eee; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border: #3fcb71 solid 5px;
-    /* box-shadow: #333 5px 5px; */
     position: relative;
     background-color: rgba(255, 255, 255, 0.9);
 
@@ -123,8 +70,6 @@ section .Calculatr div.below {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    /* background-color: red; */
-
 }
 
 section .Calculatr div.below div.inputOutput {
@@ -132,7 +77,6 @@ section .Calculatr div.below div.inputOutput {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    /* background-color: blue; */
     width: 100%;
     direction: rtl;
 }
@@ -156,7 +100,7 @@ section .Calculatr div.below div.inputOutput .Result {
     padding: 10px;
     padding-right: 80px;
     border-radius: 5px;
-    font-weight: 800;
+    /* font-weight: 800; */
 
 
 }
@@ -171,7 +115,6 @@ section .Calculatr div.below button.theReulter {
     color: #333;
     color: var(-mainColor);
     background-color: inherit;
-    /* filter: blur(5px); */
 }
 section .Calculatr div.below button.theReulter:hover{
     background-color:#fff ;
@@ -185,20 +128,12 @@ section .Calculatr div.below button.theReulter:hover{
     min-width: 100px;
     font-size: 150px;
     font-weight: 700;
-    /* background-color: url('/bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-clip: text;
-    -webkit-background-clip: text; */
     color: var(--main-color);
     padding: 0;
     margin: 0;
-    /* padding: 10px; */
     font-family: serif;
     text-shadow: 5px 5px black;
-    /* background-color: #fff; */
     border: none;
-    /* text-align: center; */
     transform-style: preserve-3d;
     transform: rotateX(35deg);
     animation: logo3d 10s ease infinite;
